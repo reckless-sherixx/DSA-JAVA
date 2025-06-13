@@ -7,12 +7,12 @@ public class Array_6 {
             int startNumber = i;
             for (int j = i; j < arr.length; j++) {
                 int endNumber = j;
-                int sumOfPairs = 0;//To calculate the sum of each pair , resets everytime the value of j changes
+                int sumOfPairs = 0;// To calculate the sum of each pair , resets everytime the value of j changes
                 for (int k = startNumber; k <= endNumber; k++) {
-                    System.out.print(arr[k] + " ");
+                    System.out.print(arr[k] + "\t");
                 }
-                for(int l = startNumber ; l<=endNumber;l++){
-                    sumOfPairs+=arr[l];
+                for (int l = startNumber; l <= endNumber; l++) {
+                    sumOfPairs += arr[l];
                     System.out.print("Total sum of pairs : " + sumOfPairs);
                 }
                 System.out.println();
