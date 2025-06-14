@@ -13,8 +13,8 @@ public class Array_6 {
                 }
                 for (int l = startNumber; l <= endNumber; l++) {
                     sumOfPairs += arr[l];
-                    System.out.print("Total sum of pairs : " + sumOfPairs);
                 }
+                System.out.print("Total sum of pairs : " + sumOfPairs);
                 System.out.println();
             }
             System.out.println();
