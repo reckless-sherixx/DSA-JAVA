@@ -13,8 +13,8 @@ public class AdvanceArray_4 {
         // Calculate right max boundary
         int rightMax[] = new int[len];
         rightMax[len - 1] = height[len - 1];
-        for (int i = len - 2; i <= 0; i--) {
-            rightMax[i] = Math.max(height[i], rightMax[i - 1]);
+        for (int i = len - 2; i >= 0; i--) {
+            rightMax[i] = Math.max(height[i], rightMax[i + 1]);
         }
 
         int trappedWater = 0;
