@@ -14,12 +14,12 @@ public class Question4 {
         for (int i = len - 2; i >= 0; i--) {
             rightMax[i] = Math.max(arr[i], rightMax[i + 1]);
         }
-        int waterTrapped = 0;
+        int trappedWater = 0;
         for (int i = 0; i < len; i++) {
             int waterLevel = Math.min(leftMax[i], rightMax[i]);
-            waterTrapped += waterLevel - arr[i];
+            trappedWater += waterLevel - arr[i];
         }
-        return waterTrapped;
+        return trappedWater;
     }
 
     public static void main(String[] args) {

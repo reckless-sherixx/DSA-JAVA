@@ -51,7 +51,7 @@ public class Question2 {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 4, 5, 6, 7, 0, 1, 2 };
-        System.out.println(searchTarget(arr, 10));
+        int arr[] = { 4, 5, 6, 7, 0, 1, 2 ,3 };
+        System.out.println(searchTarget(arr, 3));
     }
 }

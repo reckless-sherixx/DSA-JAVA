@@ -2,18 +2,18 @@ package Arrays.PracticeQuestions;
 
 public class Question3 {
     public static int buyAndSellStock(int prices[]) {
-        int maximumProfit = 0;
+        int maxProfit = 0;
         int buyPrice = prices[0];
         for (int i = 0; i < prices.length; i++) {
             if (buyPrice < prices[i]) {
                 int profit = prices[i] - buyPrice;
-                maximumProfit = Math.max(maximumProfit, profit);
+                maxProfit = Math.max(maxProfit, profit);
             } else {
                 buyPrice = prices[i];
             }
 
         }
-        return maximumProfit;
+        return maxProfit;
     }
 
     public static void main(String[] args) {
