@@ -19,7 +19,7 @@ public class Largest_Smallest_Integer {
                 smallest = Math.min(smallest , arr[i][j]);
             }
         }
-        System.out.println("The largest number is :" + smallest);
+        System.out.println("The smallest number is :" + smallest);
     }
     
 
@@ -35,5 +35,6 @@ public class Largest_Smallest_Integer {
         }
         largest(arr);
         smallest(arr);
+        sc.close();
     }
 }
