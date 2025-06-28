@@ -2,9 +2,9 @@ package BitManipulation;
 
 public class LeftAndRightShift {
     public static void main(String[] args) {
-        //Left Shift
+        // Left Shift
         System.out.println((5 << 2));
-        //Right Shift
+        // Right Shift
         System.out.println((5 >> 2));
     }
 }

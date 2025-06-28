@@ -2,13 +2,13 @@ package BitManipulation;
 
 public class BitManipulation {
     public static void main(String[] args) {
-        //AND
+        // AND
         System.out.println((5 & 6));
-        //OR
+        // OR
         System.out.println((5 | 6));
-        //XOR
+        // XOR
         System.out.println((5 ^ 6));
-        //1's complement
+        // 1's complement
         System.out.println((~5));
     }
 }
