@@ -10,7 +10,7 @@ public class Classes_Objects {
     }
 }
 
-class Pen { 
+ class Pen { 
     String color ; 
     int tip ;
     void setColor(String newColor){
