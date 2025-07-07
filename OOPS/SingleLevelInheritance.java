@@ -8,21 +8,23 @@ public class SingleLevelInheritance {
 }
 
 // Parent class
-class Animal{
+class Animal {
     String color;
-    void eat(){
+
+    void eat() {
         System.out.println("eats");
     }
-    void breathe(){
+
+    void breathe() {
         System.out.println("breathe");
     }
 }
 
-// Derived class 
+// Derived class
 class Fish extends Animal {
     int fins;
-    
-    void swim(){
+
+    void swim() {
         System.out.println("Swims");
     }
 }

@@ -9,21 +9,22 @@ public class MultiLevelInheritance {
     }
 }
 
-
-class Animals{
+class Animals {
     String color;
-    void eat(){
+
+    void eat() {
         System.out.println("eats");
     }
-    void breathe(){
+
+    void breathe() {
         System.out.println("breathe");
     }
 }
 
-class Mammal extends Animal{
+class Mammal extends Animal {
     int legs;
 }
 
-class Dog extends Mammal{
+class Dog extends Mammal {
     String breed;
 }
